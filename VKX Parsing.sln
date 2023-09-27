@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34004.107
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleRunner", "ConsoleRunner\ConsoleRunner.csproj", "{47585C71-19F6-449A-88EE-71372EB35179}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Fraser.VkxData", "Fraser.VkxData\Fraser.VkxData.csproj", "{908F003A-411B-4A6B-86EA-94D2316F6841}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{47585C71-19F6-449A-88EE-71372EB35179}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{47585C71-19F6-449A-88EE-71372EB35179}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{47585C71-19F6-449A-88EE-71372EB35179}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{47585C71-19F6-449A-88EE-71372EB35179}.Release|Any CPU.Build.0 = Release|Any CPU
+		{908F003A-411B-4A6B-86EA-94D2316F6841}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{908F003A-411B-4A6B-86EA-94D2316F6841}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{908F003A-411B-4A6B-86EA-94D2316F6841}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{908F003A-411B-4A6B-86EA-94D2316F6841}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B03B801D-6E63-4730-A8F5-EF69F48DDF26}
+	EndGlobalSection
+EndGlobal
