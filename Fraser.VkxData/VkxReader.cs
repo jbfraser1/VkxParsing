@@ -52,16 +52,22 @@ namespace Fraser.VkxData
                     return new Declination(_stream);
                 case RowType.RaceTimerEvent:
                     return new RaceTimerEvent(_stream);
-
                 case RowType.LinePosition:
+                    return new LinePosition(_stream);
                 case RowType.ShiftAngle:
+                    return new ShiftAngle(_stream);
                 case RowType.DeviceConfiguration:
+                    return new DeviceConfiguration(_stream);
                 case RowType.Wind:
+                    return new Wind(_stream);
                 case RowType.SpeedThroughWater:
+                    return new SpeedThroughWater(_stream);
                 case RowType.Depth:
+                    return new Depth(_stream);
                 case RowType.Temperature:
+                    return new Temperature(_stream);
                 case RowType.Load:
-                    throw new NotImplementedException();
+                    return new Load(_stream);
                 case RowType.Internal01:
                     return new Internal01(_stream);
                 case RowType.Internal07:
