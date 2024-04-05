@@ -89,6 +89,8 @@ namespace Fraser.VkxData
                     return new Internal07(_stream);
                 case RowType.Internal0E:
                     return new Internal0E(_stream);
+                case RowType.Internal20:
+                    return new Internal20(_stream);
 
                 default:
                     throw new NotImplementedException();

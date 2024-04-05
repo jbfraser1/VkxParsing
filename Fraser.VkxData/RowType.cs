@@ -25,6 +25,7 @@ namespace Fraser.VkxData
         Internal01 = 0x01,
         Internal07 = 0x07,
         Internal0E = 0x0e,
+        Internal20= 0x20,
 
     }
 }
