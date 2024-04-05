@@ -11,15 +11,15 @@ namespace Fraser.VkxData.Row
         public override RowType Type => RowType.LinePosition;
         public ulong Time { get; protected set; }
         public LineEndType LineEnd { get; protected set; }
-        public Int32 Latitude { get; protected set; }
-        public Int32 Longitude { get; protected set; }
+        public float Latitude { get; protected set; }
+        public float Longitude { get; protected set; }
 
         public LinePosition(Stream stream) : base(stream)
         {
             Time = ReadULong();
             LineEnd = (LineEndType)ReadByte();
-            Latitude = ReadInt();
-            Longitude = ReadInt();
+            Latitude = ReadSingle();
+            Longitude = ReadSingle();
         }
     }
 
