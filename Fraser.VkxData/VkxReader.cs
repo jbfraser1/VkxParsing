@@ -23,6 +23,21 @@ namespace Fraser.VkxData
             _stream = stream;
         }
 
+        public async Task<VkxTrack> ReadTrack()
+        {
+            var track = new VkxTrack();
+            while (_stream.Position < _stream.Length)
+            {
+                var row = ParseNextRow();
+                if (row is PositionVelocityOrientation pvo)
+                {
+                    track.Add(pvo);
+                }
+            }
+
+            return track;
+        }
+
         public IEnumerator<VkxRow> GetEnumerator()
         {
             while (_stream.Position < _stream.Length)
